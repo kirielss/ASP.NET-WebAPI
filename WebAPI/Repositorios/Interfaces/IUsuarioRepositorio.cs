@@ -2,7 +2,7 @@
 
 namespace WebAPI.Repositorios.Interfaces
 {
-    public class IUsuarioRepositorio
+    public interface IUsuarioRepositorio
     {
         Task<List<UsuarioModel>> BuscarTodosUsuarios();
         Task<UsuarioModel> BuscarPorId(int id);
