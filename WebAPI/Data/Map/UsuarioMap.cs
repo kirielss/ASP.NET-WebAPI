@@ -4,7 +4,7 @@ using WebAPI.Models;
 
 namespace WebAPI.Data.Map
 {
-    public class TarefaMap : IEntityTypeConfiguration<UsuarioModel>
+    public class UsuarioMap : IEntityTypeConfiguration<UsuarioModel>
     {
         public void Configure(EntityTypeBuilder<UsuarioModel> builder)
         {
