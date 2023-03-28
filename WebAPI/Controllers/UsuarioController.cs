@@ -23,7 +23,7 @@ namespace WebAPI.Controllers
             return Ok(usuarios);
         }
 
-        [HttpGet("buscarPorId/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<UsuarioModel>> BuscarPorId(int id)
         {
             UsuarioModel usuario = await _usuarioRepositorio.BuscarPorId(id);
